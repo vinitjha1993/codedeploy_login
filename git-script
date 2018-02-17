@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git add -A
+git status
+echo "enter github commit message"
+read commit_name
+git commit -m $commit_name
+git push origin master

@@ -17,7 +17,7 @@
   </head>
   <body class="body" >
     <header>
-      <h1>welcome to this Site</h1>
+      <h1>welcome to my Site</h1>
       {% if user.is_authenticated %}
       click<a href="{% url 'user_info' %}"><font color="red"> here </font></a>for user info<br>
         <a  href="{% url 'logout' %}"><font color="red">Logout</font></a>
